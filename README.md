@@ -1,4 +1,4 @@
-![](https://travis-ci.org/Warchant/thread-pool-cpp.svg?branch=master)
+https://travis-ci.org/Warchant/thread-pool-cpp.svg?branch=master
 
 thread-pool-cpp
 =================
