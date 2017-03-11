@@ -1,3 +1,5 @@
+https://travis-ci.org/Warchant/thread-pool-cpp.svg?branch=master
+
 thread-pool-cpp
 =================
 
