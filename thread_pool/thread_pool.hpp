@@ -114,7 +114,7 @@ inline void ThreadPool::post(Handler &&handler)
 template <typename Handler, typename R>
 typename std::future<R> ThreadPool::process(Handler &&handler)
 {
-    std::packaged_task<R()> task([handler = std::move(handler)] () {
+    std::packaged_task<R()> task([handler = std::move(handler)] () mutable {
         return handler();
     });
 
